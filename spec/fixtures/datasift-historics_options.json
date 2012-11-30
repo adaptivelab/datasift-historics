@@ -1,0 +1,18 @@
+{
+    "options": {
+        "hash": "4920bf8862c2ebe227c1ded106e018e8",
+        "start": 1265902333,
+        "end": 1352302333,
+        "sources": "twitter",
+        "sample": 100,
+        "output_type": "mongodb",
+        "output_params" : {
+            "host": "mongodb.example.com",
+            "port": "27017",
+            "db_name": "datasiftmongodb",
+            "auth.username": "dsreceiver",
+            "auth.password": "dsrpassword"
+        },
+        "initial_status": "paused"
+    }
+}

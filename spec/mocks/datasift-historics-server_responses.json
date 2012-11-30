@@ -1,0 +1,63 @@
+{
+    "prepare": {
+        "dpus": 234.6916666667,
+        "id": "4ef7c852a96d6352764f",
+        "availability": {
+            "start": 1341673200,
+            "end": 1341759600,
+            "sources": {
+                "twitter": {
+                    "status": 99,
+                    "versions": [
+                        3
+                    ],
+                    "augmentations": {
+                        "klout": 50,
+                        "links": 100
+                    }
+                },
+                "facebook": {
+                    "status": 99,
+                    "versions": [
+                        2,
+                        3
+                    ],
+                    "augmentations": {
+                        "links": 95
+                    }
+                }
+            }
+        }
+    },
+    "create": {
+        "id": "123456",
+        "name": "mysubscription",
+        "created_at": 1335869526,
+        "status": "disabled",
+        "hash": "123456789123456789123456789",
+        "hash_type": "stream",
+        "output_type": "http",
+        "output_params": {
+            "delivery_frequency": 60,
+            "max_size": 2048000,
+            "url": "http://www.example.com",
+            "auth": {
+                "type": "basic",
+                "username": "frood",
+                "password": "towel42"
+            }
+        },
+        "last_success": null,
+        "last_request": null,
+        "failure_count": "0"
+    },
+    "start": {
+        
+    },
+    "stop": {
+        
+    },
+    "remove": {
+
+    }
+}

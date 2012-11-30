@@ -1,0 +1,31 @@
+{
+    "prepare": {
+        "hash": "4a62782cfdd2a02d2fff45e2308683de",
+        "start": 1265902333,
+        "end": 1352302333,
+        "sources": "twitter",
+        "sample": 100
+    },
+    "create": {
+        "playback_id": "4433e15eed19d28cd1ff02a7d385b8f0",
+        "name": "mysubscription",
+        "output_type": "mongodb",
+        "output_params" : {
+            "host": "mongodb.example.com",
+            "port": "27017",
+            "db_name": "datasiftmongodb",
+            "auth.username": "dsreceiver",
+            "auth.password": "dsrpassword"
+        },
+        "initial_status": "paused"
+    },
+    "start": {
+        "playback_id": "4433e15eed19d28cd1ff02a7d385b8f0"
+    },
+    "stop": {
+        "playback_id": "4433e15eed19d28cd1ff02a7d385b8f0"
+    },
+    "remove": {
+        "playback_id": "4433e15eed19d28cd1ff02a7d385b8f0"
+    }
+}

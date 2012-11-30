@@ -1,0 +1,27 @@
+{
+  "name": "datasift-historics",
+  "version": "0.5.0",
+  "description": "Library for use with DataSift Historics API",
+  "main": "datasift-historics.js",
+  "scripts": {
+    "test": "mocha spec -R nyan -t 50"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adaptivelab/datasift-historics.git"
+  },
+  "keywords": [
+    "datasift",
+    "historics",
+    "api"
+  ],
+  "author": "Steve Mckellar <steve@adaptivelab.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "1.7.x",
+    "chai": "1.2.x",
+    "async": "0.1.x",
+    "request": "2.11.x",
+    "moniker": "0.1.x"
+  }
+}

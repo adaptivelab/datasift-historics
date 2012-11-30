@@ -1,0 +1,11 @@
+{
+    "test": {
+        "datasift": {
+            "api": {
+                "url": "http://localhost:9000/",
+                "username": "solipsisticlab",
+                "key": "a9d8c9e9d973b8a3aa79b24b8e2724f1"
+            }
+        }
+    }
+}
