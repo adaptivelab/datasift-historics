@@ -30,5 +30,7 @@ A node.js library to interface with the DataSift Historics API
     );
 
     historics.on( 'ready', function( info ) {
-        historics.start();
+        if( info.dpus < 0.1 ) {  // Costs money, check DPUs first!
+            historics.start();
+        }
     });
